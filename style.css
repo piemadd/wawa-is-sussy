@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Inter', sans-serif;
+}
+
+#map {
+  height: 100vh;
+}
+
+#key {
+  position: absolute;
+  z-index: 1000;
+  color: #fff;
+  background-color: #111;
+  padding: 12px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.leaflet-control-attribution {
+  color: #fff;
+  background-color: #111 !important;
+}
+
+.keyChild {
+  display: flex;
+  align-items: center;
+}
+
+.colorBox {
+  width: 16px;
+  height: 16px;
+  border-radius: 4px;
+  margin-right: 6px;
+}
+
+p {
+  margin: 0;
+  margin-top: -4px;
+  margin-bottom: 4px;
+}
